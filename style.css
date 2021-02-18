@@ -1,0 +1,36 @@
+body{
+    background: #000;
+}
+
+.clock{
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    width: 550px;
+    height: 150px;
+    transform: translate(-50%, -50%);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clock div{
+    width: 150px;
+    background-color: #fff;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: blue;
+    border-radius: 20px;
+    box-shadow: 0 -15px 30px rgba(255, 255, 255, 0.616);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.clock span{
+    font-size: 60px;
+    font-weight: bold;
+    color: #fff;
+}
